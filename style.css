@@ -48,6 +48,84 @@ img{
     justify-content: center;
 }
 
+/*-----------Partie droite-----------*/
+
+h1 span{
+    color:rgba(253,216,53 ,1)
+}
+
+h2 span{
+    border-bottom: 2px rgba(253,216,53 ,1) solid;;
+}
+
+.titre {
+    border-bottom:2px rgba(253,216,53 ,1) solid;
+    margin-bottom: 20px;
+}
+
+header, footer, .bloc{
+    margin-left:20px;
+}
+
+
+.titre{
+    display:flex;
+    align-items: center;
+}
+
+.titre i{
+    color: rgba(253,216,53 ,1);
+    margin-right:20px;
+    font-size: xx-large;
+}
+
+.date i{
+    color:rgba(253,216,53 ,1);
+
+}
+
+.reference{
+    display: flex;
+    justify-content: space-around;
+}
+
+.conteneur{
+    display: flex;
+}  
+
+.date{
+    display: flex;
+    flex-basis:30%;
+    align-items:center;
+}
+
+
+
+.date h4{
+    margin-left:15px;
+}
+
+.texte{
+    flex-basis:70%;
+}
+
+.conteneur p{
+    text-align: justify;
+    padding-right: 25px;}
+
+header{
+    display: flex;
+    flex-direction: column;
+    
+    ;
+    margin-bottom: 60px;
+    
+}
+
+header, h1{
+    margin-bottom: 0;
+}
+
 /*----------Responsive----------*/
 @media screen and (min-width:769px){
     .img img{
