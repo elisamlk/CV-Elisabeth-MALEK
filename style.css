@@ -1,0 +1,49 @@
+body{
+    max-width:1190px;
+    margin:auto;
+    border:2px lightgrey solid;
+    font-family:sans-serif;
+    display: flex;
+}
+
+/*----------Partie gauche----------*/
+
+aside{
+    background-color: rgba(253,216,53 ,1);
+    flex-basis:30%;
+}
+
+.aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+aside h3{
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+
+.loisirs i{
+    border:2px black solid;
+    border-radius: 100%;
+    padding:10px;
+    font-size: xx-large;
+}
+
+.loisirs{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img{
+    border:2px rgba(255,179,0 ,1) solid;
+    border-radius: 100%;
+    margin-top:10px;
+}
+
+.photo{
+    display: flex;
+    justify-content: center;
+}
