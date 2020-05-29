@@ -2,8 +2,9 @@ body{
     max-width:1190px;
     margin:auto;
     border:2px lightgrey solid;
-    font-family:sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     display: flex;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*----------Partie gauche----------*/
@@ -57,6 +58,12 @@ h1 span{
 h2 span{
     border-bottom: 2px rgba(253,216,53 ,1) solid;;
 }
+
+h1{
+    font-size:45px ;
+}
+
+h2{font-size:35px;}
 
 .titre {
     border-bottom:2px rgba(253,216,53 ,1) solid;
@@ -117,7 +124,7 @@ header{
     display: flex;
     flex-direction: column;
     
-    ;
+    
     margin-bottom: 60px;
     
 }
