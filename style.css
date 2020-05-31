@@ -17,13 +17,17 @@ aside{
 .aside{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-}
+    justify-content: space-between;}
 
 aside h3{
     background-color: black;
     color:rgba(255,224,130 ,1);
     text-align: center;
+}
+
+aside p{
+    text-align: justify;
+    padding:0 20px 0 20px;
 }
 
 .loisirs i{
@@ -83,13 +87,23 @@ header, footer, .bloc{
 .titre i{
     color: rgba(255,224,130 ,1);
     margin-right:20px;
-    font-size: xx-large;
+    font-size:xx-large;
+}
+
+.titre h3{
+    font-weight:900;
+    font-size: 20px;
 }
 
 .date i{
     color:rgba(255,224,130 ,1);
-
+    font-size:medium;
 }
+
+#logo i{
+    font-size:x-large;
+}
+
 
 .reference{
     display: flex;
