@@ -2,154 +2,170 @@ body{
     max-width:1190px;
     margin:auto;
     border:2px lightgrey solid;
-    font-family:Arial, Helvetica, sans-serif;
     display: flex;
-    font-family: 'Roboto', sans-serif;
-}
+    font-family: 'Manrope', sans-serif;
+    }
 
 /*----------Partie gauche----------*/
 
 aside{
     background-color: rgba(255,224,130 ,1);
-    flex-basis:30%;
-}
-
-.aside{
+    flex-basis:40%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;}
+    justify-content:flex-start;
+    }
 
 aside h3{
     background-color: black;
     color:rgba(255,224,130 ,1);
     text-align: center;
-}
+    }
+
+aside h4{
+    padding-left: 20px;
+    }
 
 aside p{
     text-align: justify;
     padding:0 20px 0 20px;
-}
+    }
 
 .loisirs i{
     border:2px black solid;
     border-radius: 100%;
     padding:10px;
     font-size: xx-large;
-}
+    }
 
 .loisirs{
     display: flex;
     justify-content: space-evenly;
-}
+    }
 
 img{
     border:2px rgba(255,179,0 ,1) solid;
     border-radius: 100%;
     margin-top:10px;
-}
+    }
 
 .photo{
     display: flex;
     justify-content: center;
-}
+    }
+    
+a{
+    padding-left: 20px;
+    color: black;
+    }
+
+.contact h4{
+    margin-bottom: 0;
+    }
+
+.contact p{
+    margin-top:0;
+    }
 
 /*-----------Partie droite-----------*/
 
 h1 span{
     color:rgba(255,224,130 ,1);
-}
+    }
 
 h2 span{
     border-bottom: 2px rgba(255,224,130 ,1) solid;;
-}
+    }
 
 h1{
     font-size:45px ;
-}
+    }
 
-h2{font-size:35px;}
+h2{
+    font-size:35px;
+    }
 
 .titre {
     border-bottom:2px rgba(255,224,130 ,1) solid;
     margin-bottom: 20px;
-}
+    }
 
 header, footer, .bloc{
     margin-left:20px;
-}
-
+    }
 
 .titre{
     display:flex;
     align-items: center;
-}
+    }
 
 .titre i{
     color: rgba(255,224,130 ,1);
     margin-right:20px;
     font-size:xx-large;
-}
+    }
 
 .titre h3{
-    font-weight:900;
-    font-size: 20px;
-}
+     font-size: 20px;
+    }
 
 .date i{
     color:rgba(255,224,130 ,1);
     font-size:medium;
-}
+    }
 
 #logo i{
     font-size:x-large;
-}
-
+    }
 
 .reference{
     display: flex;
     justify-content: space-around;
-}
+    }
 
 .conteneur{
     display: flex;
-}  
+    }     
 
 .date{
-    display: flex;
+    display:flex;
     flex-basis:30%;
-    align-items:center;
-}
-
-
+    align-items: baseline;
+    }
 
 .date h4{
     margin-left:15px;
-}
+    }
 
 .texte{
     flex-basis:70%;
+    }
+
+.texte h5{
+    font-size: 15px;
 }
 
 .conteneur p{
     text-align: justify;
-    padding-right: 25px;}
+    padding-right: 25px;
+    }
 
 header{
     display: flex;
     flex-direction: column;
-    
-    
-    margin-bottom: 60px;
-    
-}
+      margin-bottom: 60px;
+    }
 
  h1{
     margin-bottom: 0;
-}
+    }
 
-h2{margin-top:10px}
+h2{
+    margin-top:10px
+    }
 
 /*----------Responsive----------*/
+
 @media screen and (min-width:769px){
     .img img{
         display: none;
@@ -173,34 +189,37 @@ h2{margin-top:10px}
             justify-content:center;}
     h1, h2{display:flex;
            justify-content: center;}
-    .conteneur{flex-direction: column;
+    .conteneur{flex-direction:column;
             align-items: center;}
     .texte{display: flex;
             flex-direction: column;
             align-items: center;}
     .conteneur p{padding-left:25px;}
+    .texte h4{margin-bottom:0;
+        margin-top:0}
+    .texte h5{margin-top:10px;}
+    }
 
-    h1{ font-size: xx-large;}
-    h2{ font-size:x-large;}
-    .titre h3{font-size:medium;}
+
+@media all and (min-width:320px) and (max-width:425px) {
+    h1{ font-size: x-large;}
+    h2{ font-size:large;
+            margin:5px 2px 15px 2px;
+            }
+    .titre h3{font-size: medium;}
     .texte h4,h5{font-size:medium;}
-    .texte h4{margin-bottom:0;}
+    
     .texte h5{margin-top:10px;}
     .reference{flex-direction: column;
                align-items: center;}
-}
+    } 
+
+    @media all and (min-width:425px) and (max-width:767px) {
+        h1{font-size: xx-large;}
+        h2{font-size:x-large;}
+    }
 
 
-@media all and (max-width:320px){
-        h1{ font-size: xx-large;}
-        h2{ font-size:x-large;
-            margin:5px 2px 15px 2px;
-            }
-        .titre h3{font-size:medium;}
-        .texte h4,h5{font-size:medium;}
-        .texte h4{margin-bottom:0;}
-        .texte h5{margin-top:10px;}
-        .reference{flex-direction: column;
-                   align-items: center;}
-} 
 
+  
+    
