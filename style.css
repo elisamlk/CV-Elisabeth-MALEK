@@ -16,6 +16,13 @@ aside{
     justify-content:flex-start;
     }
 
+    .hobbies{
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
 aside h3{
     background-color: black;
     color:rgba(255,224,130 ,1);
