@@ -21,6 +21,7 @@ aside{
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
+        padding-bottom: 10px;
     }
 
 aside h3{
@@ -76,6 +77,12 @@ a{
 
 /*-----------Partie droite-----------*/
 
+header{
+    display: flex;
+    flex-direction: column;
+      margin-bottom: 60px;
+    }
+
 h1 span{
     color:rgba(255,224,130 ,1);
     }
@@ -86,24 +93,17 @@ h2 span{
 
 h1{
     font-size:45px ;
+    margin-bottom: 0;
     }
 
 h2{
     font-size:35px;
+    margin-top:10px;
     }
 
 .titre {
     border-bottom:2px rgba(255,224,130 ,1) solid;
     margin-bottom: 20px;
-    }
-
-header, footer, .bloc{
-    margin-left:20px;
-    }
-
-.titre{
-    display:flex;
-    align-items: center;
     }
 
 .titre i{
@@ -116,60 +116,44 @@ header, footer, .bloc{
      font-size: 20px;
     }
 
-.date i{
+time i{
     color:rgba(255,224,130 ,1);
-    font-size:medium;
+    font-size:large;
     }
 
-#logo i{
-    font-size:x-large;
-    }
-
-.reference{
+.recommandation{
     display: flex;
     justify-content: space-around;
-    }
-
-.conteneur{
-    display: flex;
-    }     
-
-.date{
-    display:flex;
-    flex-basis:30%;
-    align-items: baseline;
-    }
-
-.date h4{
-    margin-left:15px;
-    }
-
-.texte{
-    flex-basis:70%;
     }
 
 .texte h5{
     font-size: 15px;
 }
 
-.conteneur p{
+.bloc{
+    display:flex;
+    align-items:baseline;
+}
+
+time{
+    flex-basis:30%;
+}
+
+time i{
+    margin-right:10px;
+}
+
+.texte{
+    flex-basis:70%;
+}
+
+main{
+    padding:0 25px 0 30px;
+}
+
+.texte p{
     text-align: justify;
-    padding-right: 25px;
-    }
-
-header{
-    display: flex;
-    flex-direction: column;
-      margin-bottom: 60px;
-    }
-
- h1{
-    margin-bottom: 0;
-    }
-
-h2{
-    margin-top:10px
-    }
+}
 
 /*----------Responsive----------*/
 
@@ -183,7 +167,7 @@ h2{
     .photo { display:none;}
     body{display:flex;
         flex-direction:column;}
-    section{order:1;}
+    main{order:1;}
     aside{order:2}
     .img{background-color:rgba(255,224,130 ,1);
         display: flex;
