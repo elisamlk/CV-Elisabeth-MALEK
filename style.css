@@ -167,50 +167,43 @@ main{
     .photo { display:none;}
     body{display:flex;
         flex-direction:column;}
-    main{order:1;}
+    main{order:1;
+        padding:0}
     aside{order:2}
     .img{background-color:rgba(255,224,130 ,1);
         display: flex;
         justify-content: center;}
     .img img{margin-bottom:10px}
     header h1, h2{display: flex;}
-    header, footer, .bloc{
-        margin-left:0px;}
     .titre {display:flex;
             justify-content:center;}
     h1, h2{display:flex;
            justify-content: center;}
-    .conteneur{flex-direction:column;
-            align-items: center;}
     .texte{display: flex;
             flex-direction: column;
             align-items: center;}
-    .conteneur p{padding-left:25px;}
     .texte h4{margin-bottom:0;
         margin-top:0}
     .texte h5{margin-top:10px;}
     .contact {text-align: center;}
     .contact p {text-align:center;}
+    .bloc{flex-direction: column;
+            align-items: center;}
+    time{margin:20px 0 20px 0;}
+    .texte p{ padding:0 20px 0 20px}
     }
 
+@media screen and (max-width:576px){
+    h1{font-size: xx-large;}
+    h2{font-size: large;}
+    .titre h3{font-size:medium;}
+}
 
-@media all and (min-width:320px) and (max-width:425px) {
-    h1{ font-size: x-large;}
-    h2{ font-size:large;
-            margin:5px 2px 15px 2px;
-            }
-    .titre h3{font-size: medium;}
-    .texte h4,h5{font-size:medium;}
-    
-    .texte h5{margin-top:10px;}
-    .reference{flex-direction: column;
-               align-items: center;}
-    } 
 
-    @media all and (min-width:425px) and (max-width:767px) {
-        h1{font-size: xx-large;}
-        h2{font-size:x-large;}
-    }
+
+
+
+   
 
 
 
