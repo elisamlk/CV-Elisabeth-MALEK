@@ -10,7 +10,7 @@ body{
 
 aside{
     background-color: rgba(255,224,130 ,1);
-    flex-basis:40%;
+    flex-basis:45%;
     display: flex;
     flex-direction: column;
     justify-content:flex-start;
@@ -36,7 +36,8 @@ aside h4{
     }
 
 aside p{
-    text-align: justify;
+    text-align:justify;
+    
     padding:0 20px 0 20px;
     color:rgba(38,50,56 ,1);
     }
@@ -129,14 +130,22 @@ time i{
     font-size:large;
     }
 
+.date i{
+    font-size: x-large;
+}
+
 .bloc h4, h5{
     color:rgba(38,50,56 ,1);
-}
+    }
 
 .recommandation{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     }
+
+.recommandation .contact{
+    flex-basis:50%;
+}
 
 .recommandation a{
     color:rgba(38,50,56 ,1)
